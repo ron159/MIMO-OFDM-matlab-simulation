@@ -20,6 +20,6 @@ else
     p0=1/sigma_tau;
 end
 %指数PDP
-1=0:lmax;
-PDP=p0*exp(-1*Ts/sigma_tau);
+l=0:lmax;
+PDP=p0*exp(-l*Ts/sigma_tau);
 end
